@@ -258,6 +258,14 @@ footer{
      max-width: 40vw;
         
     }
+    .logofooter{
+        text-decoration: none;
+        text-align: left;
+        font-family: Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 4.5vw;
+        color: white;
+    }
     footer{
         margin-top: 15vh;
     }
