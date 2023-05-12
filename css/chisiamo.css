@@ -110,20 +110,20 @@ p{
     text-decoration: none;
 }
 
-img {
-    max-width: 484px;
-    height: 531px;
+img{
+    max-height: 65vh;
+    max-width: 55vw;
 }
 
 /*galleria a pulsanti*/
 .wrapper {
-    width: 38.5vw;
+    width: 47.5vw;
     height: 77vh;
     margin:0;
   }
   
   .slider {
-    width: 38.5vw;
+    width: 47.5vw;
     height: 79vh;
     outline: 0 solid black;
     overflow: hidden; /*tener conto*/
@@ -135,7 +135,7 @@ img {
   .slide {
     position: relative;
     float: left;
-    width: 38.5vw;
+    width: 47.5vw;
     height: 72vh;
   }
   
@@ -144,13 +144,13 @@ img {
     display: none;
   }
   
-  .slider .nav {
+.nav {
     justify-content: left;
     text-align: left;
     top: 50px;
-    max-width: 55vw;
+    width: 47.5vw;
     max-height: 40vh;
-    padding: 7%;
+    padding: auto;
   }
   
   label.bottom {
@@ -188,10 +188,9 @@ img {
 
 /*fine main*/
 /*inizio footer*/
-  .gridcontainer3 {
+.gridcontainer3 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
     gap: 2.5%;
     padding: 10px;
 }
@@ -210,13 +209,16 @@ img {
 }
 
 .nomifooter{
-    position: absolute;
-    padding: 1.5% 0 0 55%;
+    padding-top: 3.5%;
     margin: auto;
     text-align: right;
     width: 35vw;
 }
-
+.contenitorefooter{
+    text-align: right;
+    justify-items: right; 
+    width: 40vw;
+}
 #fine{
     padding-left: 2%; 
     text-decoration: none;
@@ -224,13 +226,14 @@ img {
     font-weight: bold;
     font-size: 2.0vw;
     color: white;
-    
 }
 footer{
     background-color: rgba(168, 181, 250, 1);
     height: 100%;
     width: 100%;
-}  
+    margin-top: 7%;
+}
+  
 /*fine footer*/
 
 @media (max-width: 1000px) { 
@@ -332,21 +335,7 @@ footer{
         font-size: 4.5vw;
         color: white;
     }
-    #fine{
-        padding-left: 2%; 
-        text-decoration: none;
-        font-family: Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 2.5vw;
-        color: white;
-    }   
-    .nomifooter{
-        position: absolute;
-        padding: 4% 0 0 55%;
-        margin: auto;
-        text-align: right;
-        width: 35vw;
-    }  
+
 }
 
 @media (max-width: 420px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
@@ -448,19 +437,4 @@ footer{
         font-size: 4.5vw;
         color: white;
     }
-    #fine{
-        padding-left: 2%; 
-        text-decoration: none;
-        font-family: Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 2.5vw;
-        color: white;
-    }   
-    .nomifooter{
-        position: absolute;
-        padding: 4% 0 0 55%;
-        margin: auto;
-        text-align: right;
-        width: 35vw;
-    }  
 }
