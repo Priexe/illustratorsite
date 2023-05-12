@@ -236,7 +236,7 @@ footer{
   
 /*fine footer*/
 
-@media (max-width: 1000px) { 
+@media (max-width: 1000px) {  /*responsive*/
     /*header*/
     header{
         padding: 2vh;
@@ -338,7 +338,7 @@ footer{
 
 }
 
-@media (max-width: 420px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+@media (max-width: 420px) { /*responsive smartphone*/
     /*header*/
     header{
         padding: 2vh;

@@ -222,7 +222,7 @@ footer{
     margin-top: 7%;
 }
   
-@media (max-width: 1000px) { 
+@media (max-width: 1000px) { /*responsive pc*/
     /*header*/
     header{
         padding: 2vh;
@@ -340,7 +340,7 @@ footer{
     }
 }
 
-@media (max-width: 420px) { 
+@media (max-width: 420px) { /*responsive smartphone*/
     /*header*/
     header{
         padding: 2vh;

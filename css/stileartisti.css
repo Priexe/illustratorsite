@@ -142,7 +142,7 @@ img{
 }
 
 /*fine main*/
-
+/*inizio footer*/
 .gridcontainer3 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -188,9 +188,8 @@ footer{
     width: 100%;
     margin-top: 7%;
 }
-  
-/*responsive pc*/
-@media (max-width: 1000px) { 
+
+@media (max-width: 1000px) { /*responsive pc*/
     /*header*/
     header{
         padding: 2vh;
@@ -271,9 +270,7 @@ footer{
     }
 }
 
-
-/*responsive smartphone*/
-@media (max-width: 420px) { 
+@media (max-width: 420px) { /*responsive smartphone*/
     /*header*/
     header{
         padding: 2vh;
